@@ -1,0 +1,29 @@
+{
+  "type": "buildbattle:buildbattle",
+  "gamemode": "standard",
+  "name": {
+    "translate": "gameType.buildbattle.mini"
+  },
+  "description": [
+    "<lang:'description.buildbattle.standard.1':'5'>",
+    "<lang:'description.buildbattle.standard.2'>",
+    "<lang:'description.buildbattle.standard.3'>",
+    "<lang:'description.buildbattle.standard.4'>",
+    "<lang:'description.buildbattle.standard.5'>"
+  ],
+  "icon": "brick",
+  "map": {
+    "arena": "buildbattle:arena_small",
+    "lobby": "buildbattle:wait",
+    "entity_rotation": -45
+  },
+  "theme": "buildbattle:normal",
+  "players": {
+    "min": 2,
+    "threshold": 4,
+    "max": 24
+  },
+  "team_size": 1,
+  "time_limit_secs": 360,
+  "voting_time_secs": 15
+}

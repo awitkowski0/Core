@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "buildbattle",
+  "version": "${version}",
+  "name": "Build Battle",
+  "description": "The best builder wins!",
+  "authors": [
+    "Patbox"
+  ],
+  "license": "LGPLv3",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "eu.pb4.buildbattle.BuildBattle"
+    ]
+  },
+  "mixins": [
+    "buildbattle.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.9.1",
+    "fabric": "*",
+    "minecraft": ">=1.17.1",
+    "plasmid": "0.5.x"
+  }
+}

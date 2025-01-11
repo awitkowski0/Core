@@ -1,0 +1,32 @@
+{
+  "type": "buildbattle:buildbattle",
+  "gamemode": "duo",
+  "name": {
+    "translate": "gameType.buildbattle.duo"
+  },
+  "description": [
+    "<lang:'description.buildbattle.duo.1':'8'>",
+    "<lang:'description.buildbattle.duo.2'>",
+    "<lang:'description.buildbattle.duo.3'>",
+    "<lang:'description.buildbattle.duo.4'>",
+    "<lang:'description.buildbattle.duo.5'>"
+  ],
+  "icon": {
+    "id": "bricks",
+    "Count": 2
+  },
+  "map": {
+    "arena": "buildbattle:ompa",
+    "lobby": "buildbattle:wait",
+    "entity_rotation": -45
+  },
+  "theme": "buildbattle:normal",
+  "players": {
+    "min": 4,
+    "threshold": 8,
+    "max": 24
+  },
+  "team_size": 2,
+  "time_limit_secs": 480,
+  "voting_time_secs": 20
+}

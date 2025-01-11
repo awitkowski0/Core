@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "eu.pb4.buildbattle.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "BucketItemAccessor",
+    "BucketItemMixin",
+    "CreativeActionPacketAccessor",
+    "DispenserBlockMixin",
+    "EntityBucketItemMixin",
+    "ItemUsageContextAccessor",
+    "PistonBlockMixin",
+    "VillagerEntityAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}
